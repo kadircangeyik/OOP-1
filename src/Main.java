@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -7,11 +6,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         //Kullanıcı Bilgileri  Oluşturuyoruz.(Username,Password)
-        String kullaniciadi = "Emre";
+        String kullanici_Adi = "Emre";
         String sifre = "1234";
 
         //Kullanıcının Kaç Defa Denediğini Kontrol Etmek İçin Bir Değişken Oluşturuyoruz.
-        int sayi = 0;
+        int deneme_Sayisi = 0;
 
         //Kullanıcı sürekli girdi denemeleri yapabilsin diye while döngüsü kullanıyoruz.
         while (true){
@@ -22,7 +21,7 @@ public class Main {
             String sifreoku = scanner.nextLine();
 
             //Kullanıcı bilgileri eşleşiyorsa hoşgeldin mesajı veriyoruz.
-            if (kullaniciadioku.equals(kullaniciadi) && sifreoku.equals(sifre))
+            if (kullaniciadioku.equals(kullanici_Adi) && sifreoku.equals(sifre))
             {
                 System.out.println("Hoşgeldiniz Emre! \n Kullanıcı Bilgileriniz: \n Kullanıcı Adı: Emre \n Şifre: 1234 \n Oturumu Kapatmak İçin 'E' Tuşuna Basınız.");
                 if (scanner.nextLine().equals("E"))
@@ -31,23 +30,23 @@ public class Main {
                     break;
                 }
             }
+
             //Eşleşmiyorsa kullanıcıya hata mesajı veriyoruz.
             else
             {
-                sayi++; //Deneme Sayisini 1 arttırıyoruz...
+                deneme_Sayisi++; //Deneme Sayisini 1 arttırıyoruz...
 
                 //Deneme sayisi 3 olduğunda oturumu mesajla birlikte girişi sonlandırıyoruz.
-                if (sayi == 3) {
+                if (deneme_Sayisi == 3) {
                     System.out.println("3 defa hatalı giriş yaptınız. Giriş Başarısız.");
                     break;
                 }
+
                 else
                 {
-                    System.out.println("Yanlış kullanıcı adı veya şifre. Tekrar deneyiniz." + "\n Kalan Deneme Hakkınız: " + (3 - sayi));
+                    System.out.println("Yanlış kullanıcı adı veya şifre. Tekrar deneyiniz." + "\n Kalan Deneme Hakkınız: " + (3 - deneme_Sayisi));
                 }
             }
         }
-
     }
-
 }
