@@ -10,6 +10,7 @@ Bu Java konsol uygulaması, kullanıcının belirli bir kullanıcı adı ve şif
 4. Yanlış kullanıcı adı veya şifre girildiğinde, kullanıcıya hata mesajı verilir. Üç başarısız giriş denemesinden sonra oturum sonlandırılır.
 
 ## Örnek Kullanım
+
 Console: Kullanıcı Adınız:
 User: Emre
 Console: Şifreniz:
@@ -21,9 +22,9 @@ Console: Kullanıcı Adı: Emre
 Console: Şifre: 1234
 Console: Oturumu Kapatmak İçin 'E' Tuşuna Basınız.
 User: E
+
 Console: Oturum Kapatıldı. Güle Güle Emre!
 
 ## Geliştirme
 
 Bu proje, Java programlama dili kullanılarak geliştirilmiştir. `Main.java` dosyasında bulunan kodlar uygulamanın temelini oluşturur.
-
