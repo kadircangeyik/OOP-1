@@ -25,4 +25,5 @@ Bu Java konsol uygulaması, kullanıcının belirli bir kullanıcı adı ve şif
 
 ## Geliştirme
 
-Bu proje, Java programlama dili kullanılarak geliştirilmiştir. `Main.java` dosyasında bulunan kodlar uygulamanın temelini oluşturur.
+Bu proje, Java programlama dili kullanılarak geliştirilmiştir. [`Main.java`](https://github.com/kadircangeyik/OOP-1/blob/main/src/Main.java) dosyasında bulunan kodlar uygulamanın temelini oluşturur.
+
