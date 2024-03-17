@@ -11,19 +11,17 @@ Bu Java konsol uygulaması, kullanıcının belirli bir kullanıcı adı ve şif
 
 ## Örnek Kullanım
 
-Console: Kullanıcı Adınız:
-User: Emre
-Console: Şifreniz:
-User: 1234
-
-Console: Hoşgeldiniz Emre!
-Console: Kullanıcı Bilgileriniz:
-Console: Kullanıcı Adı: Emre
-Console: Şifre: 1234
-Console: Oturumu Kapatmak İçin 'E' Tuşuna Basınız.
-User: E
-
-Console: Oturum Kapatıldı. Güle Güle Emre!
+1. Console: Kullanıcı Adınız:
+2. User: Emre
+3. Console: Şifreniz:
+4. User: 1234
+5. Console: Hoşgeldiniz Emre!
+6. Console: Kullanıcı Bilgileriniz:
+7. Console: Kullanıcı Adı: Emre
+8. Console: Şifre: 1234
+9. Console: Oturumu Kapatmak İçin 'E' Tuşuna Basınız.
+10. User: E
+11. Console: Oturum Kapatıldı. Güle Güle Emre!
 
 ## Geliştirme
 
